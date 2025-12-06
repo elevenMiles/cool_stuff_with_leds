@@ -43,7 +43,7 @@ void loop()
   // Calculating elapsed time between two loop function calls
   static unsigned long previous_time_micros {};
   unsigned long current_time_micros {micros()};
-  float delta_time {(current_time_micros - previous_time_micros) / 1000000.0f}; // Converting miliseconds to seconds by dividing 1000.
+  float delta_time {(current_time_micros - previous_time_micros) / 1000000.0f}; // Converting microseconds to seconds by dividing 1000000.
   previous_time_micros = current_time_micros;
   // ********************************************************
 
