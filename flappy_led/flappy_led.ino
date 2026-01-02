@@ -1,3 +1,5 @@
+// In this project using Arduino Uno we achieved Flappy Bird like movement effect on LEDs.
+
 #include "Button.h"
 
 Button btn {12};
